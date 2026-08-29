@@ -1,9 +1,12 @@
 {
     "name": "furnace-quotation-app",
+    "homepage": "https://HiranyamayHazra101922.github.io/All-India-Furnace/", 
     "private": true,
     "version": "1.0.0",
     "type": "module",
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
         "dev": "vite",
         "build": "tsc && vite build",
         "preview": "vite preview"
